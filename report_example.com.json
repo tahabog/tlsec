@@ -1,0 +1,56 @@
+{
+  "target": "https://example.com",
+  "host": "example.com",
+  "port": 443,
+  "timestamp": "2026-07-01 15:22:47.384027",
+  "certificate": {
+    "subject": {
+      "commonName": "example.com"
+    },
+    "issuer": {
+      "countryName": "US",
+      "organizationName": "SSL Corporation",
+      "commonName": "Cloudflare TLS Issuing ECC CA 3"
+    },
+    "not_before": "May 31 21:39:12 2026 GMT",
+    "not_after": "Aug 29 21:41:26 2026 GMT",
+    "serial": "1AA73FEA257BE3334B9A29552E6F878E",
+    "version": 3,
+    "san": [
+      [
+        "DNS",
+        "example.com"
+      ],
+      [
+        "DNS",
+        "*.example.com"
+      ]
+    ]
+  },
+  "supported_ciphers": [],
+  "vulnerabilities": [
+    [
+      "HSTS_MISSING",
+      "HSTS header missing"
+    ],
+    [
+      "MISSING_HEADER",
+      "Missing security header: X-Frame-Options"
+    ],
+    [
+      "MISSING_HEADER",
+      "Missing security header: X-XSS-Protection"
+    ],
+    [
+      "MISSING_HEADER",
+      "Missing security header: Content-Security-Policy"
+    ]
+  ],
+  "summary": {
+    "total_vulns": 4,
+    "critical": 0,
+    "high": 0,
+    "medium": 1,
+    "low": 0
+  }
+}

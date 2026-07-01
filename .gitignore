@@ -1,0 +1,9 @@
+*.pyc
+__pycache__/
+*.log
+*.db
+*.sqlite
+.sentinel_license
+.DS_Store
+*.swp
+*.swo
